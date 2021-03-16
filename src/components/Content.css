@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+    
+    section {
+      display: flex !important;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+
+    }
+  
+    section#about, section#experience, section#education, section#skills, section#interests, section#awards {
+  
+    }
+  }
+  
