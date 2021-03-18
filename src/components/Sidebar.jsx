@@ -15,7 +15,7 @@ const Sidebar = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-resume fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
                 <span className="d-block d-lg-none">John Paul Inhog</span>
                 <span className="d-none d-lg-block">
@@ -32,7 +32,7 @@ const Sidebar = () => {
                     <li className="nav-item" onClick={scrollLink} data-id="education"><a className="nav-link" >Education</a></li>
                     <li className="nav-item" onClick={scrollLink} data-id="skills"><a className="nav-link" >Skills</a></li>
                     <li className="nav-item" onClick={scrollLink} data-id="interests"><a className="nav-link" >Interests</a></li>
-                    <li className="nav-item" onClick={scrollLink} data-id="awards"><a className="nav-link" >Awards</a></li>
+                    <li className="nav-item" onClick={scrollLink} data-id="awards"><a className="nav-link" >Certifications</a></li>
                 </ul>
             </div>
         </nav>

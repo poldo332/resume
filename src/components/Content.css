@@ -11,5 +11,101 @@
     section#about, section#experience, section#education, section#skills, section#interests, section#awards {
   
     }
+    
   }
+
+  #education .title, #skills .title, #interests .title, #awards .title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    color: #343a40;
+  }
+
   
+  .content-details {
+    display: flex;
+  }
+
+ 
+  .content-description {
+    flex: 1;
+  }
+
+  .content-description h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #343a40;
+    text-transform: uppercase;
+  }
+
+  .content-description h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  #about h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  #about h2 {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  #about .social-links {
+    display: flex;
+  }
+
+  #about a {
+    color: #343a40;
+  }
+
+  #about a:hover {
+    color: #F05F40;
+  }
+
+  #about .social-links .social-icon{
+    color: #343a40;
+    transition: all .2s ease-in-out;
+    font-size: 2.5em;
+  }
+
+  #about .social-links .social-icon:hover{
+    color: #F05F40;
+    transform: scale(1.5);
+  }
+
+  /* Skills */
+  #skills .img-container {
+    display: flex;
+  }
+  #skills .img-container img{
+    height: 80px;
+  }
+
+  #skills h2 {
+    font-size: 18px;
+  }
+
+  #interests ul li {
+    list-style: none;
+    text-align: center;
+    background: #F2F5F4;
+    display: inline-block;
+    padding: 20px 34px;
+    margin: 4px 3px;
+  }
+
+  #interests ul li i.fa {
+    color: #F05F40;
+    transition: all .2s ease-in-out;
+    font-size: 3em;
+  }
+
+  #interests ul li i.fa:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
