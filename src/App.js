@@ -4,7 +4,7 @@ import Content from './components/Content';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Sidebar/>
       
       <div className="container-fluid">

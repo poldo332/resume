@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import imageUrl from '../assets/images/user-logo.jpg';
 
 const Sidebar = () => {
@@ -27,12 +26,24 @@ const Sidebar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                    <li className="nav-item" onClick={scrollLink} data-id="about"><a className="nav-link active" >About</a></li>
-                    <li className="nav-item" onClick={scrollLink} data-id="experience"><a className="nav-link" >Experience</a></li>
-                    <li className="nav-item" onClick={scrollLink} data-id="education"><a className="nav-link" >Education</a></li>
-                    <li className="nav-item" onClick={scrollLink} data-id="skills"><a className="nav-link" >Skills</a></li>
-                    <li className="nav-item" onClick={scrollLink} data-id="interests"><a className="nav-link" >Interests</a></li>
-                    <li className="nav-item" onClick={scrollLink} data-id="awards"><a className="nav-link" >Certifications</a></li>
+                    <li className="nav-item" onClick={scrollLink} data-id="about" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <div className="nav-link active">About</div>
+                    </li>
+                    <li className="nav-item" onClick={scrollLink} data-id="experience" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <div className="nav-link">Experience</div>
+                    </li>
+                    <li className="nav-item" onClick={scrollLink} data-id="education" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <div className="nav-link">Education</div>
+                    </li>
+                    <li className="nav-item" onClick={scrollLink} data-id="skills" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <div className="nav-link">Skills</div>
+                    </li>
+                    <li className="nav-item" onClick={scrollLink} data-id="interests" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <div className="nav-link">Interests</div>
+                    </li>
+                    <li className="nav-item" onClick={scrollLink} data-id="awards" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <div className="nav-link">Certifications</div>
+                    </li>
                 </ul>
             </div>
         </nav>

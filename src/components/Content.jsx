@@ -27,7 +27,7 @@ const Content = () => {
                     <h2>Pasig City, 1600 - 09177388097</h2>
                 </div>
                 <div className="details pt-4">
-                    <p>Hi, there! I am John Paul. I am Full stack developer with 4+ years experience developing web applications using agreed tools, libraries and coding standard. </p>
+                    <p>Hi, there! I am John Paul. I am full stack developer with 4+ years of experience developing web applications using agreed tools, libraries and coding standard. </p>
                 </div>
                 <div className="social-links">
                      <div className="social-icon p-2">
@@ -51,7 +51,7 @@ const Content = () => {
                 </div>
            </section>
            <section id="experience">
-                experiences
+                <h2 className="mb-5 title">Experiences</h2>
            </section>
            <section id="education">
                 <h2 className="mb-5 title">Education</h2>
@@ -83,8 +83,8 @@ const Content = () => {
                 <div className="img-container">
                     {
                          images.map((image, index) => {
-                              const imagesName = ['Angular', 'CSS', 'Javascript', 'Angular', 'React', 'Bootstrap', 'Sass', 'Node', 'Laravel', 'PHP']
-                              return <div className="img-fluid p-2" title={imagesName[index]}>
+                              const imagesName = ['Angular', 'CSS', 'Javascript', 'Angular', 'React', 'Bootstrap', 'Sass', 'Node', 'AWS', 'Azure', 'Laravel', 'PHP'];
+                              return <div className="img-fluid p-3" title={imagesName[index]} key={imagesName[index]}>
                                    <img src={image.default} alt={imagesName[index]}/>
                               </div>
                          })
@@ -93,12 +93,12 @@ const Content = () => {
            </section>
            <section id="interests">
                 
-               <h2 className="mb-5 title">Hobbies & Interests.</h2>
+               <h2 className="mb-5 title">Hobbies & Interests</h2>
                <p>
-                    Apart from being a developer, I also enjoy playing computer/mobile games on my free time. Most of the time we are sitting in front of our computers so I make sure that I have time to be physically fit and healthy.
+                    Apart from being a developer, I also enjoy playing computer/mobile games during my free time. Most of the time I am sitting in front of my computer so I always make sure that I have time to be healthy and physically fit.
                </p>
                <p>
-                    I also love coffee, riding on a bicycle, cooking, travelling and enjoying my life. 
+                    I can't start my day without taking my coffee. I'm a coffee lover too. I enjoyed travelling, cyling, cooking and most of all I enjoy life.
                </p>
                <div>
                     <ul>
